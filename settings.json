@@ -1,0 +1,125 @@
+{
+    "window.zoomLevel": 1,
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 14,
+    "editor.cursorStyle": "line-thin",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "editor.cursorSurroundingLines": 500,
+
+    // edit from Bobban
+
+    "explorer.openEditors.visible": 0,
+    "editor.lineHeight": 30,
+    // "terminal.integrated.fontFamily": "monospace",
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "diffEditor.renderSideBySide": false,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "nasc-touchbar.addCursorBelow": false,
+    "nasc-touchbar.commentLine": true,
+    "nasc-touchbar.goToDefinition": false,
+    "nasc-touchbar.indent": true,
+    "nasc-touchbar.rename": false,
+    "nasc-touchbar.blockComment": true,
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // edit by me 
+
+    // terminal 
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font mono'",
+    "terminal.integrated.rendererType": "dom",
+    // editor
+    "editor.padding.top": 50,
+    "editor.padding.bottom": 5,
+    "editor.definitionLinkOpensInPeek": true,
+
+    // Firacode font settings 
+    // "editor.fontFamily": "FiraCode-Retina",
+    // "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.suggestSelection": "first",
+    "editor.smoothScrolling": true,
+    "files.autoSaveDelay": 500,
+    "editor.renderWhitespace": "all",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorWidth": 10,
+    // "scss.validate": false,
+
+    // tailwind fix error
+    "css.validate": false,
+    // vim
+        // "vim.disableExtension": false,
+        "vim.easymotion": true,
+        "vim.surround": true,
+        "vim.overrideCopy": true,
+        "vim.incsearch": true,
+        "vim.useSystemClipboard": true,
+        "vim.useCtrlKeys": true,
+        "vim.hlsearch": true,
+        "vim.insertModeKeyBindings": [
+          {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+          }
+        ],
+        "vim.normalModeKeyBindingsNonRecursive": [
+          {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+          },
+          {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+          }
+        ],
+        "vim.leader": "<space>",
+        "vim.handleKeys": {
+          "<C-a>": false,
+          "<C-f>": false
+      },
+      "workbench.colorTheme": "CodeSandbox Black",
+      "editor.minimap.enabled": false,
+      "editor.fontFamily": "Monaco, 'Courier New', monospace,Hack ",
+
+      "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#ffd900",
+        "terminalCursor.foreground": "#1f8500"
+    },
+    "workbench.sideBar.location": "left",
+    // the new update to change color theming 
+      "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+          // diffrent color for all constants
+          "property.readonly": "#35166d",
+          // make all symbol declarations bold
+          "*.declaration": { "bold": true }
+        }
+      },
+
+      // Disable presistent undo
+      "files.restoreUndoStack": true,
+      "prettier.jsxSingleQuote": true,
+      "prettier.packageManager": "yarn",
+      "prettier.semi": false,
+      "prettier.singleQuote": true,
+      "prettier.trailingComma": "none",
+      "vetur.format.defaultFormatter.js": "prettier-eslint",
+      "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "html.format.wrapAttributes": "force-aligned",
+      "prettier.useEditorConfig": false,
+      // "singleAttributePerLine": true,
+      "markdown.preview.breaks": true,
+      "gitlens.views.repositories.files.layout": "tree",
+      "workbench.list.smoothScrolling": true,
+}
