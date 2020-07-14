@@ -2,8 +2,6 @@
     "workbench.colorTheme": "CodeSandbox Black",
     "workbench.iconTheme": "material-icon-theme",
     "window.zoomLevel": 1,
-    // copy past code
-
     // editor and files 
     "files.autoSave": "onFocusChange",
     "editor.padding.top": 50,
@@ -32,7 +30,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     // terminal 
     "terminal.integrated.fontSize": 14,
-
     // Fira code font
     // "editor.fontFamily": "'Fira Code'",
     // "editor.fontLigatures": true,
@@ -40,8 +37,6 @@
     // "editor.fontWeight": "400" // Regular
     // "editor.fontWeight": "500" // Medium
     // "editor.fontWeight": "600" // Bold
-    
     // tailwind fix error
     // "css.validate": false,
-
 }
