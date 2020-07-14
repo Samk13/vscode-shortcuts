@@ -44,15 +44,4 @@
     // tailwind fix error
     // "css.validate": false,
 
-    // the new update to change color theming 
-    "editor.semanticTokenColorCustomizations": {
-        "enabled": true,
-        "rules": {
-            // diffrent color for all constants
-            "property.readonly": "#35166d",
-            // make all symbol declarations bold
-            "*.declaration": { "bold": true }
-        }
-    },
-
 }
