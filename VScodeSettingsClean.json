@@ -1,0 +1,58 @@
+{
+    "workbench.colorTheme": "CodeSandbox Black",
+    "workbench.iconTheme": "material-icon-theme",
+    "window.zoomLevel": 1,
+    // copy past code
+
+    // editor and files 
+    "files.autoSave": "onFocusChange",
+    "editor.padding.top": 50,
+    "editor.padding.bottom": 5,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.lineHeight": 30,
+    "editor.fontSize": 14,
+    "editor.suggestSelection": "first",
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSurroundingLines": 500,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorWidth": 10,
+    "files.restoreUndoStack": true,
+    // git props
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "gitlens.views.repositories.files.layout": "tree",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "diffEditor.renderSideBySide": false,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    // terminal 
+    "terminal.integrated.fontSize": 14,
+
+    // Fira code font
+    // "editor.fontFamily": "'Fira Code'",
+    // "editor.fontLigatures": true,
+    // "editor.fontWeight": "300" // Light
+    // "editor.fontWeight": "400" // Regular
+    // "editor.fontWeight": "500" // Medium
+    // "editor.fontWeight": "600" // Bold
+    
+    // tailwind fix error
+    // "css.validate": false,
+
+    // the new update to change color theming 
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            // diffrent color for all constants
+            "property.readonly": "#35166d",
+            // make all symbol declarations bold
+            "*.declaration": { "bold": true }
+        }
+    },
+
+}
